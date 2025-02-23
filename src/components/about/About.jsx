@@ -1,15 +1,15 @@
 import React from 'react'
 import Info from './Info'
-import "./about.css"
-import AboutImg from '../../assets/about.jpg'
+import "./About.css"
+import AboutImg from '../../assets/profile.jpg'
 import CV from '../../assets/John-Cv.pdf'
 import { ReactComponent as FilesIcon } from "../../assets/files.svg"; 
 
 const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section__tittle">About Me</h2>
-        <span className="section__subtittle">My introduction</span>
+        <h2 className="section__title">About Me</h2>
+        <span className="section__subtitle">My introduction</span>
         <div className="about__container container grid">
             <img src={AboutImg} alt="" className="about__img" />
             <div className="about__data">
