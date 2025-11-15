@@ -15,6 +15,9 @@ const Social = () => {
       <a href="https://github.com/Arpit21345" className="home__social-icon" target="_blank" rel="noopener noreferrer">
         <i className="uil uil-github"></i>
       </a>
+      <a href="https://codolio.com/profile/inodsa" className="home__social-icon" target="_blank" rel="noopener noreferrer">
+        <i className="uil uil-code-branch"></i>
+      </a>
     </div>
   );
 };

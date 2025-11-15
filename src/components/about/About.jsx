@@ -1,7 +1,7 @@
 import React from 'react'
 import Info from './Info'
 import "./About.css"
-import AboutImg from '../../assets/profile.jpg'
+import AboutImg from '../../assets/profile3.jpg'
 import CV from '../../assets/Resume-2025.pdf'
 import { ReactComponent as FilesIcon } from "../../assets/files.svg"; 
 
