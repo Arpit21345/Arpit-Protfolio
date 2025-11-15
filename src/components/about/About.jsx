@@ -2,7 +2,7 @@ import React from 'react'
 import Info from './Info'
 import "./About.css"
 import AboutImg from '../../assets/profile.jpg'
-import CV from '../../assets/John-Cv.pdf'
+import CV from '../../assets/Resume-2025.pdf'
 import { ReactComponent as FilesIcon } from "../../assets/files.svg"; 
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
+                I'm a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js). I love building scalable and efficient web applications that solve real-world problems. With a strong foundation in Data Structures and Algorithms, I continuously work on enhancing my problem-solving skills and creating innovative solutions.
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV

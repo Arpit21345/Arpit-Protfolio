@@ -1,5 +1,4 @@
 import React from "react";
-import HandIcon from "../../assets/hand.svg";
 import { ReactComponent as SendIcon } from "../../assets/send.svg"; // Import SVG as a React component
 
 const Data = () => {
@@ -15,7 +14,7 @@ const Data = () => {
         scalable and efficient web applications and continuously enhance my
         skills with Data structures and Algorithms.
       </p>
-      <a href="#contact" className="button button--flex">
+      <a href="mailto:arpit21345j@gmail.com" className="button button--flex">
         Say Hello
         <SendIcon
           style={{ fill: "var(--container-color)", filter: "invert(1)" }}
